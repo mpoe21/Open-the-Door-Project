@@ -1,0 +1,107 @@
+body {
+  background-color: black;
+  margin: 0px;
+}
+
+.hidden {
+	display: none;
+}
+
+.header {
+  background-color: #f78f28;
+  text-align: center;
+}
+
+.tinyPumpkin {
+	width: 30px;
+	height: 30px;
+}
+
+.halloween {
+	
+}
+
+.first-row {
+  margin-top: 42px;
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+.instructions-title {
+  display: inline;
+  font-family: Luminari, fantasy;
+  font-size: 18px;
+  color: #f78f28;
+}
+
+.second-row {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.instructions-number {
+  padding-right: 25px;
+  font-family: Luminari, fantasy;
+  font-size: 36px;
+  color: #f78f28;
+}
+
+.instructions-text {
+  padding: 10px;
+  font-family: Andale Mono, monospace;
+  font-size: 14px;
+  color: #f78f28;
+}
+
+.door-row {
+  text-align: center;
+}
+
+.door-frame {
+  cursor: pointer;
+  padding: 10px;
+  width: 120px;
+  height: 195px;
+}
+
+
+.start-row {
+  margin: auto;
+  width: 120px;
+  height: 43px;
+  background-color: #f78f28;
+  padding-top: 18px;
+  font-family: Luminari, fantasy;
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  margin-bottom: 9px;
+  cursor: pointer;
+}
+
+.score-row {
+  text-align: center;
+  width: 100%;
+}
+
+.score-text {
+  margin-right: 17px;
+  padding: 5px;
+  display: inline;
+  font-family: Luminari, fantasy;
+  font-size: 12px;
+  letter-spacing: 1.1px;
+  color: #f78f28;
+}
+
+.score-box {
+  margin-top: 9px;
+  display: inline-block;
+  padding: 8px;
+  margin: 18px;
+  margin-right: 29px;
+  width: 59px;
+  background-color: #f78f28;
+  font-family: Luminari, fantasy;
+  font-size: 45px;
+}

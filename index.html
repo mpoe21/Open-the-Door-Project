@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html> 
+ <head>
+    <title>Halloween Door Game!</title>
+    <link href='./style.css' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type='text/css'>
+  </head>
+
+  <body>
+
+    <div class="header">
+	  <div id="clock" class="clock"></div>
+      <img class="halloween" src="./images/halloween1.png">
+    </div>
+
+    <div class="first-row">
+      <img class="tinyPumpkin" src="./images/pumpkinImage.png">
+      <p class="instructions-title" id="instructions-toggle" style="cursor: pointer;">Instructions</p>
+      <img class="tinyPumpkin" src="./images/pumpkinImage.png">
+    </div>
+
+   <div id="instructions-content" class="hidden">
+    <table class="second-row">
+      <tr>
+        <td class="instructions-number">1</td>
+        <td class="instructions-text">Behind two of these doors are trick-or-treaters. Behind the other door is a ghost!</td>
+      </tr>
+      <tr>
+        <td class="instructions-number">2</td>
+        <td class="instructions-text">Your mission is to open the other doors without finding the ghost.</td>
+      </tr>
+      <tr>
+        <td class="instructions-number">3</td>
+        <td class="instructions-text">If you avoid the ghost until the last door, you win!</td>
+      </tr>
+      <tr>
+        <td class="instructions-number">4</td>
+        <td class="instructions-text">Try to go for a new high score!</td>
+      </tr>
+    </table>
+   </div>
+
+    <div class="door-row">
+      <img class="door-frame" src="./images/closedDoor.svg" id="door1">
+      <img class="door-frame" src="./images/closedDoor.svg" id="door2">
+      <img class="door-frame" src="./images/closedDoor.svg" id="door3">
+    </div>
+	
+
+    <div class="start-row" id="start">Good luck!</div>
+
+    <table class="score-row">
+      <tr>
+        <th class="score-text">Current Score:</th>
+        <th class="score-text">High Score:</th>
+      </tr>
+      <tr>
+        <th class="score-box" id="score-number"></th>
+        <th class="score-box" id="high-score-number"></th>
+      <tr>
+    </table>
+
+    <script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>
